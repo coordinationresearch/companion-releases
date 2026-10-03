@@ -12,7 +12,7 @@ This is a closed alpha for friends. It runs on Macs with Apple silicon, on macOS
 
 ## Install
 
-1. Download [Beeper-Companion-arm64.zip](https://github.com/coordinationresearch/companion-releases/releases/latest/download/Beeper-Companion-arm64.zip).
+1. Download [Beeper-Companion-arm64.zip](https://2nifak2zp0iyglqu.public.blob.vercel-storage.com/Beeper-Companion-arm64.zip).
 2. Open it, then open **Beeper Companion**. macOS asks whether to open an app downloaded from the internet. Click Open.
 3. Companion moves itself into your Applications folder and opens again from there.
 4. The first-run window walks you through the rest:
