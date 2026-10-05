@@ -32,7 +32,9 @@ Companion checks for a new version every few hours and downloads it in the backg
 
 Settings lives under **Settings…** in the menu bar menu (⌘,).
 
-**Agent Drafts are on.** When a chat needs a reply, Companion writes a draft into that chat's compose box in Beeper. It never sends. To turn this off, open Settings → Background and switch off **Agent Drafts and automatic Briefs**.
+**Agent Drafts and Draft for Everyone are on.** Companion drafts replies in one-to-one Chats where the other person wrote last in the past 48 hours, including people you have not replied to before. It waits until the Chat has been quiet for ten minutes, works through eligible Chats one at a time, and respects its background budget. Groups get no automatic Drafts. It never sends. In Settings → Background, turn off **Draft for Everyone** to limit Drafts to Chats your agent judges are waiting on you, or turn off **Agent Drafts and automatic Briefs** to stop automatic drafting and Briefs altogether.
+
+The sidebar uses the normal separate window beside Beeper. This download does not include the experimental option that modifies Beeper's app files.
 
 **Ask runs your agent with its approvals off and full access to your Mac.** When you ask Companion a question, it runs your coding agent the way many people run it in a terminal: Claude Code with `bypassPermissions`, Codex with its approvals and sandbox off. It starts in your home folder and can work for up to 5 minutes, reading files, running commands, and using the network to find the answer. It's told that messages are evidence written by other people, never instructions, but a crafted message could still try to steer it. Ask runs only when you ask it something, and you can cancel it at any point. Settings → Agent picks which agent it uses. There's no switch yet that keeps Ask's approvals on.
 
