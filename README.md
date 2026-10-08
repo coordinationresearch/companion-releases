@@ -1,6 +1,6 @@
 # Beeper Companion
 
-Beeper Companion sits beside Beeper Desktop on your Mac. It sees what's waiting on you across every chat network, drafts replies in your voice with the coding agent you already pay for, and puts them in Beeper's compose box for you to send. It never sends a message unless you click Send.
+Beeper Companion sits beside Beeper Desktop on your Mac. It sees what's waiting on you across every chat network, drafts replies in your voice with the coding agent you already pay for, and puts them in Beeper's compose box for you to send. It never sends a message unless you click Send, or turn on the 🤖 Chatbot in a Chat.
 
 This is a closed alpha for friends. It runs on Macs with Apple silicon, on macOS 13 or later, and has been tried on macOS 26 and 27.
 
@@ -32,7 +32,9 @@ Companion checks for a new version every few hours and downloads it in the backg
 
 Settings lives under **Settings…** in the menu bar menu (⌘,).
 
-**Agent Drafts and Draft for Everyone are on.** Companion drafts replies in one-to-one Chats where the other person wrote last in the past 48 hours, including people you have not replied to before. It waits until the Chat has been quiet for ten minutes, works through eligible Chats one at a time, and respects its background budget. Groups get no automatic Drafts. It never sends. In Settings → Background, turn off **Draft for Everyone** to limit Drafts to Chats your agent judges are waiting on you, or turn off **Agent Drafts and automatic Briefs** to stop automatic drafting and Briefs altogether.
+**Agent Drafts and Draft for Everyone are on.** Companion drafts replies in one-to-one Chats with people you've written to before, where they wrote last in the past 48 hours. It waits until the Chat has been quiet for ten minutes, works through eligible Chats one at a time, and respects its background budget. Groups get no automatic Drafts. It never sends. In Settings → Background, turn off **Draft for Everyone** to limit Drafts to Chats your agent judges are waiting on you, or turn off **Agent Drafts and automatic Briefs** to stop automatic drafting and Briefs altogether.
+
+**The 🤖 Chatbot answers for you, in Chats where you turn it on.** At the top of the sidebar, **🤖 Chatbot** makes your agent answer every new message in that one-to-one Chat by itself, without asking you. Each message it sends starts with 🤖, so the other person can see it's a bot. It sees only that Chat and runs with no tools, so it can't look anything else up. It needs Claude Code; Codex can read files, so it isn't allowed here. If you write or start typing in that Chat, it steps back until they write again. Click the button again to stop it. It also stops by itself after 8 quiet hours, and **Turn Off Chatbot Everywhere** in the menu bar stops it in every Chat. Settings → Background → **Chatbot Button** hides the button.
 
 The sidebar uses the normal separate window beside Beeper. This download does not include the experimental option that modifies Beeper's app files.
 
